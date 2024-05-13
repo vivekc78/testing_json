@@ -4,6 +4,7 @@
 		"query": "*.value ? type : false",
 		"cases": {
 			"Alert": "https://fiware.github.io/data-models/specs/Alert/alert-schema.json",
+			"GLMData": "https://raw.githubusercontent.com/vivekc78/testing_json/main/glmdata.json",
 			"": ""
 		}
 	},
