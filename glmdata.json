@@ -1,5 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
+  "$id": "https://raw.githubusercontent.com/vivekc78/testing_json/main/glmdata.json",
   "type": "object",
   "properties": {
     "uid": {
