@@ -16,175 +16,80 @@
         },
         "ems": {
           "type": "array",
-          "items": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "string"
-            }
-          ]
+          "items": {
+            "type": "string"
+          }
         },
         "nsd": {
           "type": "array",
-          "items": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "string"
-            }
-          ]
+          "items": {
+            "type": "string"
+          }
         },
         "meter": {
           "type": "array",
-          "items": [
-            {
-              "type": "number"
-            },
-            {
-              "type": "number"
-            },
-            {
-              "type": "number"
-            },
-            {
-              "type": "number"
-            },
-            {
-              "type": "number"
-            },
-            {
-              "type": "number"
-            },
-            {
-              "type": "number"
-            },
-            {
-              "type": "number"
-            }
-          ]
+          "items": {
+            "type": "number"
+          }
         },
         "phase": {
           "type": "array",
-          "items": [
-            {
-              "type": "integer"
-            },
-            {
-              "type": "string"
-            }
-          ]
+          "items": {
+            "type": "integer"
+          }
         },
         "opmode": {
           "type": "array",
-          "items": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "string"
-            }
-          ]
+          "items": {
+            "type": "string"
+          }
         },
         "door_st": {
           "type": "array",
-          "items": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "string"
-            }
-          ]
+          "items": {
+            "type": "string"
+          }
         },
         "kw_stat": {
           "type": "array",
-          "items": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "string"
-            }
-          ]
+          "items": {
+            "type": "string"
+          }
         },
         "amp_stat": {
           "type": "array",
-          "items": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "string"
-            }
-          ]
+          "items": {
+            "type": "string"
+          }
         },
         "volt_stat": {
           "type": "array",
-          "items": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "string"
-            }
-          ]
+          "items": {
+            "type": "string"
+          }
         },
         "volt_trip": {
           "type": "array",
-          "items": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "string"
-            }
-          ]
+          "items": {
+            "type": "string"
+          }
         },
         "phase_stat": {
           "type": "array",
-          "items": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "string"
-            }
-          ]
+          "items": {
+            "type": "string"
+          }
         },
         "phase_alert": {
           "type": "array",
-          "items": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "string"
-            }
-          ]
+          "items": {
+            "type": "string"
+          }
         }
       },
-      "required": [
-        "ts",
-        "ems",
-        "nsd",
-        "meter",
-        "phase",
-        "opmode",
-        "door_st",
-        "kw_stat",
-        "amp_stat",
-        "volt_stat",
-        "volt_trip",
-        "phase_stat",
-        "phase_alert"
-      ]
+      "required": ["ts", "ems", "nsd", "meter", "phase", "opmode", "door_st", "kw_stat", "amp_stat", "volt_stat", "volt_trip", "phase_stat", "phase_alert"]
     }
   },
-  "required": [
-    "uid",
-    "date_time",
-    "elecstat"
-  ]
+  "required": ["uid", "date_time", "elecstat"]
 }
+
